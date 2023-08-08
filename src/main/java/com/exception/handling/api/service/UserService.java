@@ -34,4 +34,5 @@ public class UserService {
 			throw new UserNotFoundException("user not found with id : " + id);
 		}
 	}
+
 }
